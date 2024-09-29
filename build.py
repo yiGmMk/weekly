@@ -11,7 +11,7 @@ def fetch_ci_time(file_path):
 
 if __name__ == "__main__":
     with open('README.md', 'w') as readme_file, open('RECENT.md', 'w') as recent_file:
-        readme_file.write("# 潮流周刊\n\n> 分享好玩/好用的工具,也欢迎推荐你的好东西,项目模板来自[tw93,weekly](https://github.com/tw93/weekly/blob/main/Deploy.md)，期待你玩得开心~\n\n")
+        readme_file.write("# 潮流周刊\n\n> 分享好玩/好用的工具,[也欢迎推荐你的好东西](https://github.com/yiGmMk/weekly/discussions/1),项目模板来自[tw93,weekly](https://github.com/tw93/weekly/blob/main/Deploy.md)，期待你玩得开心~\n\n")
 
         for root, dirs, filenames in os.walk('./src/pages/posts'):
             filenames = sorted(filenames, key=lambda x: float(re.findall(r"(\d+)", x)[0]), reverse=True)
