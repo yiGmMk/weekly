@@ -9,5 +9,5 @@
 ### 开源和工具
 
 1. **[AITDK,SEO工具,支持在Chrome等浏览器插件内查看SEO优化,站点统计等数据](https://aitdk.com/zh)**:免费AI SEO工具，SEO的AI生成器
-2. **[集成各种gpt的开源工具](https://github.com/APIParkLab/APIPark)**
+2. **[APIPark:集成各种gpt的开源工具](https://github.com/APIParkLab/APIPark)**
 3. **[把github当做收藏夹,浏览器插件Memo](https://github.com/osmoscraft/osmosmemo)**:用github管理书签,支持设置标签,摘要
